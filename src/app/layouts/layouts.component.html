@@ -1,0 +1,72 @@
+ <!--Hero section-->
+ <!-- <div class="loader">
+    <div class="loader-inner">
+        <svg width="120" height="220" viewbox="0 0 100 100" class="loading-spinner" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <circle class="spinner" cx="50" cy="50" r="21" fill="#141414" stroke-width="2" />
+        </svg>
+    </div>
+  </div> -->
+   <!--Wrapper-->
+   <div class="wrapper">
+   <section class="hero ">
+    <!--Main slider-->
+  
+    <!--End main slider-->
+    <!--Header-->
+    <header class="header stopping">
+        <!--Container-->
+        <div class="container ">
+            <!--Row-->
+            <div class="row">
+                <div class="col-lg-2">
+                    <a class="scroll logo" routerLinkActive="active" [routerLink]="['/']">
+                        <img class="mb-0" src="../../assets/img/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-10 text-right">
+                    <nav class="main-nav">
+                        <div class="toggle-mobile-but">
+                            <a href="#" class="mobile-but">
+                                <div class="lines"></div>
+                            </a>
+                        </div>
+                        <ul class="main-menu list-inline">
+                            <li><a class="scroll list-inline-item" routerLinkActive="active" [routerLink]="['/']">Home</a></li>
+                            <li><a class="scroll list-inline-item" routerLinkActive="active" [routerLink]="['/albums']">Albums</a></li>
+                            <li><a class="scroll list-inline-item" routerLinkActive="active" [routerLink]="['/artists']">Artists</a></li>
+                            <li><a class="scroll list-inline-item" routerLinkActive="active" [routerLink]="['/genres']">Genres</a></li>
+                            <li><a class="scroll list-inline-item" routerLinkActive="active" [routerLink]="['/years']">Years</a></li>
+                            <!-- <li><a class="scroll list-inline-item" href="#blog">News</a></li> -->
+                            <li><a class="scroll list-inline-item" routerLinkActive="active" [routerLink]="['/about']">About</a></li>
+                            <li><a class="scroll list-inline-item" routerLinkActive="active" [routerLink]="['/contactus']">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!--End row-->
+        </div>
+        <!--End container-->
+    </header>
+    <!--End header-->
+  </section>
+  <!--End hero section-->
+  <router-outlet></router-outlet>
+  <footer class="footer pb-5 bg-secondary text-center">
+    <!--Container-->
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-md-12 ">
+                <div class="block-content pt-5 brd-top">
+                    <p class="mb-0 ">Bands Musician - <a href="#" class="swap-color underline  mr-2">Privacy Policy</a> <a href="#" class="swap-color underline  mr-2">Terms of Use</a> 
+                        <br> &copy; 2019 all rights reserved - a product of <em>Bands</em>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End container-->
+  </footer>
+  <!-- <a class="block-top scroll hover-effect" href="#wrapper"><i class="icon-angle-up"></i></a> -->
+  </div>
+  <!-- End wrapper-->
+  
